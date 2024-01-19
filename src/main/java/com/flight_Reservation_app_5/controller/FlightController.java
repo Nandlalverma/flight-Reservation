@@ -29,6 +29,7 @@ public class FlightController {
 		  List<Flight> findFlights = flightRepo.findFlights(from, to, departureDate);
 		 // System.out.println(findFlights);
 		modelMap.addAttribute("find", findFlights);
+		System.out.println("Hello india I am nand");
 		return "displayFlights";
 	}
 	
